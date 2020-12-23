@@ -1,4 +1,4 @@
-from collections import deque
+from itertools import combinations
 
 def solution(board, moves):
     length = len(board)
