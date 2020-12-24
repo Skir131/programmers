@@ -7,6 +7,7 @@ def solution(a, b):
         today += month_list[i-1]
     #1월 2일이라면 하루를 더한다. 즉, b일에 대해서 b-1만큼 더한다.
     today += b-1   
+    #7로 나누어서 요일을 확인한다.
     today %= 7
     
     answer = day_list[today]
