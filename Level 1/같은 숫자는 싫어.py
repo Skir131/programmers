@@ -1,3 +1,5 @@
+from functools import reduce 
+
 def solution(arr):
     answer = []
     for i in range(len(arr)-1):
