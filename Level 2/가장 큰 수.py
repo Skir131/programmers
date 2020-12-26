@@ -11,3 +11,5 @@ def solution(numbers):
     numbers = list(map(str, numbers))
     numbers = sort(numbers)
     return str(int("".join((numbers))))
+
+# 12/26 해결 (1주차 풀이 링크4)
