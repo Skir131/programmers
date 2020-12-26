@@ -33,3 +33,4 @@ def solution(skill, skill_trees):
             answer += 1
             
     return answer
+#12/21 ~ 12/27 풀이 링크2
