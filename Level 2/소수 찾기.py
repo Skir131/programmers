@@ -38,6 +38,7 @@ def solution(numbers):
                 check_answer.append(era[number])
                 answer += 1
     return answer
+#12/21 ~ 12/27 풀이 링크3
 
 '''
 부분집합 만들기 참고 : https://it-sunny-333.tistory.com/26
