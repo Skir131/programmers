@@ -1,12 +1,10 @@
 def solution(s):
     answer = []
-    for length in range(len(s)):
-        i = 0
-        count = 0
+    for length in range(1, len(s)+1):
+        count = 1
         al = s[:length]
         result = ""
-        while i < len(s):
-            print(al)
+        for i in range(length, len(s), length):
             if al != s[i:i+length]:
                 if count != 1:
                     result += str(count) + al
@@ -16,15 +14,12 @@ def solution(s):
                 count = 1
             else:
                 count += 1
-            i += length
-        
         if count != 1:
             result += str(count) + al
         else:
             result += al          
         answer.append(result)
         
-    print(answer)   
-    return len(min(answer))
-
-print(solution("abcabcdede"))
+    answer = [len(ans) for ans in answer]
+    return min(answer)
+# 12/30 해결
