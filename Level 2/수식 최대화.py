@@ -58,4 +58,4 @@ def solution(expression):
     result = plus_minus_multi(a)
     return max(result)
 
-print(solution("50*6-3*2"))
+#1/4 해결(3주차 풀이 링크2)
